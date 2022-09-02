@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: grey;
+}/*# sourceMappingURL=main.css.map */
