@@ -20,14 +20,14 @@
         <nav class="nav">
           <ul class="nav__list list">
             <li class="nav__item"><a href="" class="nav__link link">Home</a></li>
-            <li class="nav__item"><a href="" class="nav__link link">About</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link link">About</a></li>
             <li class="nav__item"><a href="" class="nav__link link">Tickets</a></li>
             <li class="nav__item"><a href="" class="nav__link link">Contacts</a></li>
           </ul>
         </nav>
         <div class="contacts">
-          <ul class="contacts__list">
-            <li class="contacts__item"><a href="tel:+18938392364">+1 893 83923 64</a></li>
+          <ul class="contacts__list list">
+            <li class="contacts__item"><a href="tel:+18938392364" class="contacts__link link">+1 893 83923 64</a></li>
           </ul>
         </div>
       </div>
@@ -40,7 +40,7 @@
           <button class="hero__btn" type="button">Book the tickets</button>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container about--container">
           <h2 class="about__title">About the event</h2>
           <div class="about-info">
@@ -69,13 +69,18 @@
           <div class="about-images">
             <ul class="about-images__list list">
               <li class="about-images__item">
-                <img src="./img/img1.jpg" alt="man and lamp" class="about-images__img" />
+                <img srcset="./img/img1-2x.jpg 2x" src="./img/img1.jpg" alt="man and lamp" class="about-images__img" />
               </li>
               <li class="about-images__item">
-                <img src="./img/img2.jpg" alt="car and woman" class="about-images__img" />
+                <img srcset="./img/img2-2x.jpg 2x" src="./img/img2.jpg" alt="car and woman" class="about-images__img" />
               </li>
               <li class="about-images__item">
-                <img src="./img/img3.jpg" alt="people walk on the sand" class="about-images__img" />
+                <img
+                  srcset="./img/img3-2x.jpg 2x"
+                  src="./img/img3.jpg"
+                  alt="people walk on the sand"
+                  class="about-images__img"
+                />
               </li>
             </ul>
           </div>
